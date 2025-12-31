@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chromamancer Logo Placeholder -->
+  <defs>
+    <linearGradient id="chromaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d946ef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#chromaGradient)" opacity="0.1"/>
+  
+  <!-- Mystical prism/crystal shape -->
+  <path d="M 100 30 L 140 80 L 130 140 L 70 140 L 60 80 Z" 
+        fill="url(#chromaGradient)" 
+        stroke="#6366f1" 
+        stroke-width="2"/>
+  
+  <!-- Inner detail -->
+  <path d="M 100 30 L 100 140" 
+        stroke="#ffffff" 
+        stroke-width="1" 
+        opacity="0.5"/>
+  <path d="M 60 80 L 140 80" 
+        stroke="#ffffff" 
+        stroke-width="1" 
+        opacity="0.5"/>
+</svg>
