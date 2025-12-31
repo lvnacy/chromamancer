@@ -1,0 +1,39 @@
+{
+  "name": "chromamancer",
+  "version": "0.1.0",
+  "description": "✨ Master the arcane art of theme transformation",
+  "type": "module",
+  "bin": {
+    "chromamancer": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chromamancer/core": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "theme",
+    "vscode",
+    "obsidian",
+    "converter",
+    "cli",
+    "chromamancer"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.autoDetectColorScheme": true,
+		"workbench.preferredDarkColorTheme": "Gothic Coven's Call",
+		"workbench.preferredLightColorTheme": "Shadowlands Covenant - Night Fae",
+		"cSpell.words": [
+			"BLOCKQUOTES",
+			"Chromamancer",
+			"desaturate",
+			"titlebar"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"savannahostrowski.shadowlands-themes",
+			"diyllan.midnight-coven-themes",
+			"gruntfuggly.todo-tree"
+		]
+	}
+}
