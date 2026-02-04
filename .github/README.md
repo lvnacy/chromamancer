@@ -213,6 +213,9 @@ The brand system is **fully extensible** - anyone can create custom brands! Chec
 - [**AGENTS.md**](./docs/AGENTS.md) - Complete project roadmap and context for AI assistants
 - [**MAPPINGS.md**](./docs/MAPPINGS.md) - Detailed VS Code ↔ Obsidian color mappings
 - [**VOICE.md**](./brand/chromamancer/VOICE.md) - Chromamancer brand guidelines
+- [**INSTALLATION.md**](../docs/INSTALLATION.md)- Instructions for setting CLI on your machine
+- [**CLI-USAGE.md**](../docs/CLI_USAGE.md) - Help transforms VS Code and Obsidian
+- [**EXAMPLES**](../docs/EXAMPLES.md) - practical rituals for using the Chromamancer CLI
 
 More documentation coming as the project develops!
 
